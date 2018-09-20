@@ -1,23 +1,48 @@
-body {
-	font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
-	background-color: #000000;
-	margin: 0;
+header, footer {
+    font: 30px Verdana;
+    margin: 0;
 	padding: 0;
-	color:black;
-	background-color:white;
+    color:black;
+    font-weight:bold;
+    text-align: center;
+    margin-top: 0;	 
+	padding-right: 15px;
+    padding-left: 15px; 
 }
 
-ul, ol, dl { 
+p { 
 	padding: 0;
 	margin: 0;
-	color: #000;
-	background-color: #000;
-}
-h1, h2, h3, h4, h5, h6, p {
-	margin-top: 0;	 
+	color: black;
+    margin-top: 0;	 
 	padding-right: 15px;
 	padding-left: 15px; 
 }
-a img { 
-	border: none;
+p1 {
+    font-weight:bold;
+	color: black;	 
+	padding-right: 15px;
+    padding-left: 15px;
+    padding-top:20px;
+}
+img { 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 15px;
+}
+
+img1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-top: 15px;
+}
+
+html{
+    background-color: lightblue;
+    opacity: 50%;
+
 }
